@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Editor</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="head">
+        <div class="title">
+            <span><h1></h1></span>
+            <span id="blink">|</span>
+        </div>
+        <div class="main-cont">
+            <div class="left-cont">
+                <div class="left-box">
+                    <h2>FILTERS</h2>
+                    <div id="filter-options">
+                        <button id="brightness">Brighteness</button>
+                        <button id="saturation">Saturation</button>
+                        <button id="inversion">Inversion</button>
+                        <button id="greyscale">Grayscale</button>
+                    </div>
+                    <div id="filter-scaling">
+                        <div id="value">
+                            <span><h3>Filter</h3></span>
+                            <span id="range-value">100</span>
+                        </div>
+                        <input type="range" value="50" min="0" max="200" class="range">
+                    </div>
+                    <div id="rotate-flip">
+                            <button id="anti-rotate"><i class="ri-anticlockwise-line"></i></button>
+                            <button id="clock-rotate"><i class="ri-clockwise-line"></i></button>
+                            <button id="hori-flip"><i class="ri-flip-horizontal-line"></i></button>
+                            <button id="verti-flip"><i class="ri-flip-vertical-line"></i></button>
+                    </div>
+                </div>
+                <div id="reset">
+                    <button>RESET-FILTER</button>
+                </div>
+            </div>
+            <div class="right-cont">
+                <div id="image-area">
+                    <img src="—Pngtree—profile line black icon_4008141.png" alt="" id="profile-pic" class="picture">
+                </div>
+                <div id="upload">
+                    <label for="image">CHOOSE IMAGE</label>
+                    <input type="file" id="image" accept="image/jpeg, image/png, image/jpg">
+                    <button id="save"><a href="">SAVE IMAGE</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
