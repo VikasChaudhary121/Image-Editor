@@ -137,7 +137,7 @@ document.getElementById("save").addEventListener("click", () => {
 
 
 //FOR TYPING EFFECT .....
-const text ="IMAGE EDITOR...";
+const text ="IMAGE EDITOR...FOR BEST RESULT USE LAPTOP";
 let index = 0;
 let textarea = document.querySelector("#head .title span h1");
 
